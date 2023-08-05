@@ -58,7 +58,7 @@
 			<p><i>Sickle, Magical weapon</i></p>
 			<p>When wielded, vines from the handle wrap around forearm and grow delicate leaves and flowers. As you walk, surrounding plants bend towards you and seem to inspect your footprints.</p>
 			<p class="indent">While wielded, you can use an action to cast one of these three spells: <em>Spike Growth</em>, <em>Plant Growth</em> or <em>Mass Healing Word</em>. Once cast in this way, a charge is used.</p>
-			<p class="indent">The sickle has 3 charges and do not recharge. The spellcasting ability modifier for these spells is +5 and the spell save DC is 13.</p>
+			<p class="indent">The sickle has 3 charges and does not recharge. The spellcasting ability modifier for these spells is +5 and the spell save DC is 13.</p>
 			<p class="indent"><i>At will</i> - transport via plants only to Asari's tree and requires 1 minute casting time during which the caster has to maintain concentration.</p>
 		</description>
 		<setters>
