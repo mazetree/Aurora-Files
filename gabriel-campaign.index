@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Gabriel's Dhurn Toldur Campaign Content</name>
+		<update version="1.0.0">
+			<file name="gabriel-campaign.index" url="https://raw.githubusercontent.com/mazetree/Aurora-Files/main/gabriel-campaign.index" />
+		</update>
+	</info>
+	<files>
+		<file name="source.xml" url="https://raw.githubusercontent.com/mazetree/Aurora-Files/main/source.xml" />
+
+		<!--Items-->
+		<file name="gabriel-magic-items.xml" url="https://raw.githubusercontent.com/mazetree/Aurora-Files/main/gabriel-magic-items.xml" />
+
+		<!--Companions-->
+		<file name="gabriel-companions.xml" url="https://raw.githubusercontent.com/mazetree/Aurora-Files/main/gabriel-companions.xml" />
+	</files>
+</index>
