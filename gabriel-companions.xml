@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Fey Deer (Valenar Steed)" type="Companion" source="Dhurn Campaign" id="ID_GABRIEL_COMPANION_FEYDEER">
+	<element name="Fey Deer (Valenar Steed)" type="Companion" source="Dhurn Toldur Campaign" id="ID_GABRIEL_COMPANION_FEYDEER">
 		<description />
 		<setters>
 			<set name="strength">14</set>
@@ -37,7 +37,7 @@
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-    <element name="Bonding" type="Companion Trait" source="Dhurn Campaign" id="ID_GABRIEL_DHURN_COMPANION_TRAIT_FEYDEER_BONDING">
+    <element name="Bonding" type="Companion Trait" source="Dhurn Toldur Campaign" id="ID_GABRIEL_DHURN_COMPANION_TRAIT_FEYDEER_BONDING">
 		<description>
 			<p>The steed can magically bond with one creature it can see, immediately after spending at least 1 hour observing that creature while within 30 feet of it. The bond lasts until the steed bonds with a different creature or until the bonded creature dies. While bonded, the steed and the bonded creature can communicate telepathically with each other at a distance of up to 100 feet.</p>
 		</description>
@@ -45,7 +45,7 @@
 			<description>The steed can magically bond with one creature it can see, immediately after spending at least 1 hour observing that creature while within 30 feet of it. The bond lasts until the steed bonds with a different creature or until the bonded creature dies. While bonded, the steed and the bonded creature can communicate telepathically with each other at a distance of up to 100 feet.</description>
 		</sheet>
 	</element>
-	<element name="Hooves" type="Companion Action" source="Dhurn Campaign" id="ID_GABRIEL_DHURN_COMPANION_ACTION_FEYDEER_HOOVES">
+	<element name="Hooves" type="Companion Action" source="Dhurn Toldur Campaign" id="ID_GABRIEL_DHURN_COMPANION_ACTION_FEYDEER_HOOVES">
 		<description>
 			<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</p>
 		</description>
@@ -53,7 +53,7 @@
 			<description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</description>
 		</sheet>
 	</element>
-    	<element name="Fey Step" type="Companion Action" source="Dhurn Campaign" id="ID_GABRIEL_DHURN_COMPANION_ACTION_FEYDEER_FEYSTEP">
+    	<element name="Fey Step" type="Companion Action" source="Dhurn Toldur Campaign" id="ID_GABRIEL_DHURN_COMPANION_ACTION_FEYDEER_FEYSTEP">
 		<description>
 			<p>Fey Step (1/Day): <i>Bonus Action</i> The animal, along with anything it is wearing or carrying, teleports up to 30 feet to an unoccupied space it can see.</p>
 		</description>
