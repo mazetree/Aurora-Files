@@ -5,7 +5,7 @@
 			<file name="sources.xml" url="https://raw.githubusercontent.com/mazetree/Aurora-Files/main/source.xml" />
 		</update>
 	</info>
-	<element name="Dhurn Toldur" type="Source" source="Core" id="ID_HOMEBREW_SOURCE_DHURN_TOLDUR">
+	<element name="Dhurn Toldur Campaign" type="Source" source="Core" id="ID_HOMEBREW_SOURCE_DHURN_TOLDUR">
 		<description>
 			<p>Player items and mounts for the Dhurn Toldur campaign</p>
 		</description>
