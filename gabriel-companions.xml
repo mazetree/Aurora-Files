@@ -5,7 +5,7 @@
 		<description>Companion creatures from the Dhurn Toldur campaign.</description>
 		<author url="https://twitter.com/mazetree_">mazetree</author>
 		<update version="0.0.1">
-			<file name="gabriel-companions.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/companions.xml" />
+			<file name="gabriel-companions.xml" url="https://raw.githubusercontent.com/mazetree/Aurora-Files/main/gabriel-companions.xml" />
 		</update>
 	</info>
 
@@ -27,9 +27,8 @@
 			<set name="size">Large</set>
 			<set name="alignment">neutral</set>
 			<set name="challenge">1/2</set>
-			<set name="traits">ID_GABRIEL_COMPANION_TRAIT_FEYDEER_BONDING</set>
-			<set name="actions">ID_GABRIEL_COMPANION_ACTION_FEYDEER_HOOVES,ID_GABRIEL_COMPANION_ACTION_FEYDEER_FEYSTEP</set>
-            <set name="bonus-actions">ID_GABRIEL_COMPANION_BONUSACTION_FEYDEER_FEYSTEP</set>
+			<set name="traits">ID_GABRIEL_DHURN_COMPANION_TRAIT_FEYDEER_BONDING</set>
+			<set name="actions">ID_GABRIEL_DHURN_COMPANION_ACTION_FEYDEER_HOOVES,ID_GABRIEL_DHURN_COMPANION_ACTION_FEYDEER_FEYSTEP</set>
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="13" />
@@ -38,7 +37,7 @@
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-    <element name="Bonding" type="Companion Trait" source="Dhurn Campaign" id="ID_GABRIEL_COMPANION_TRAIT_FEYDEER_BONDING">
+    <element name="Bonding" type="Companion Trait" source="Dhurn Campaign" id="ID_GABRIEL_DHURN_COMPANION_TRAIT_FEYDEER_BONDING">
 		<description>
 			<p>The steed can magically bond with one creature it can see, immediately after spending at least 1 hour observing that creature while within 30 feet of it. The bond lasts until the steed bonds with a different creature or until the bonded creature dies. While bonded, the steed and the bonded creature can communicate telepathically with each other at a distance of up to 100 feet.</p>
 		</description>
@@ -46,7 +45,7 @@
 			<description>The steed can magically bond with one creature it can see, immediately after spending at least 1 hour observing that creature while within 30 feet of it. The bond lasts until the steed bonds with a different creature or until the bonded creature dies. While bonded, the steed and the bonded creature can communicate telepathically with each other at a distance of up to 100 feet.</description>
 		</sheet>
 	</element>
-	<element name="Hooves" type="Companion Action" source="Dhurn Campaign" id="ID_GABRIEL_COMPANION_ACTION_DEER_HOOVES">
+	<element name="Hooves" type="Companion Action" source="Dhurn Campaign" id="ID_GABRIEL_DHURN_COMPANION_ACTION_FEYDEER_HOOVES">
 		<description>
 			<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</p>
 		</description>
@@ -54,12 +53,12 @@
 			<description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</description>
 		</sheet>
 	</element>
-    	<element name="Fey Step" type="Companion Bonus Action" source="Dhurn Campaign" id="ID_GABRIEL_COMPANION_BONUSACTION_FEYDEER_FEYSTEP">
+    	<element name="Fey Step" type="Companion Action" source="Dhurn Campaign" id="ID_GABRIEL_DHURN_COMPANION_ACTION_FEYDEER_FEYSTEP">
 		<description>
-			<p>Fey Step (1/Day): The animal, along with anything it is wearing or carrying, teleports up to 30 feet to an unoccupied space it can see.</p>
+			<p>Fey Step (1/Day): <i>Bonus Action</i> The animal, along with anything it is wearing or carrying, teleports up to 30 feet to an unoccupied space it can see.</p>
 		</description>
 		<sheet>
-			<description>Fey Step (1/Day): The animal, along with anything it is wearing or carrying, teleports up to 30 feet to an unoccupied space it can see.</description>
+			<description>Fey Step (1/Day): <i>Bonus Action</i> The animal, along with anything it is wearing or carrying, teleports up to 30 feet to an unoccupied space it can see.</description>
 		</sheet>
 	</element>
 </elements>

@@ -8,7 +8,7 @@
     </info>
     <element name="Conduit of Wild Magic" type="Magic Item" source="Gabriel" id="ID_GABRIEL_AMULET_CONDUIT_WILD_MAGIC">
 		<description>
-			<p>An small, irregular light blue crystal hangs on a simple leather necklace. You feel crackling arcane energy on your ringertips as you touch it and small blue bolts of light pass from the crystal to your outstretched hand. You feel your connection to the pool of wild magic strengthen and your ability to channel it improves.</p>
+			<p>A small, irregular light blue crystal hangs on a simple leather necklace. You feel crackling arcane energy on your fingertips as you touch it and small blue bolts of light pass from the crystal to your outstretched hand. You feel your connection to the pool of wild magic strengthen and your ability to channel it improves.</p>
 			<p class="indent">The Conduit can hold up to three charges. It gains charges in response to you channelling your wild magic rage in combat - when you roll a natural 19 while raging the Conduit gains a single charge. When you roll a natural 20 while raging the Conduit gains two charges.</p>
 			<p class="indent">You can channel the wild magic in the Conduit to empower your attacks while raging. When you hit with a weapon attack on your turn you can use a bonus action to expend a number of charges of your choice. When you do so, first roll a d4 - on a 1-3 roll a d8 and use the table below to determine the damage type. If you roll a 4 you may choose the damage type. For each charge expended you deal an extra d8 of that damage type.</p>
 			<p class="indent">When fully charged with three charges, the Conduit gives extra precision to your wild magic raging. When raging for the first time in combat you may expend all three Conduit charges and choose the WIld Surge effect that takes effect.</p>
@@ -35,6 +35,22 @@
 			<set name="type">Wondrous Item</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Ashbringer" type="Magic Item" source="Gabriel" id="ID_GABRIEL_SWORD_ASHBRINGER">
+		<description>
+			<p><i>Igneous soulblade (cursed) +1 greatsword</i></p>
+			<p>At the end of a long rest make a DC 14 wisdom saving throw. You can voluntarily fail this save. On a failed save, role a d12. Subtract the result from your hitpoint maximum and add the die closest to the result to damage inflicted by the weapon as fire damage, rounded down. For instance, roll 1d10 of extra fire damage on a roll of 11. You cannot determine the consequences should you fail three saves on consecutive days.</p>
+		</description>
+		<setters>
+			<set name="keywords">sword, greatsword, ignites, cursed</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="greatsword">Weapon</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Greatsword</set>
 		</setters>
 	</element>
 </elements>
