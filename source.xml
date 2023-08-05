@@ -1,18 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<index>
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
 	<info>
-		<name>Core</name>
-		<description>The content from the core rulebooks.</description>
-		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
-		<update version="0.2.6">
-			<file name="core.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core.index" />
+		<update version="0.0.3">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/mazetree/Aurora-Files/main/source.xml" />
 		</update>
 	</info>
-	<files>
-		<file name="internal.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/internal.xml" />
-
-		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide.index" />
-		<file name="monster-manual.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/monster-manual.index" />
-		<file name="players-handbook.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook.index" />
-	</files>
-</index>
+	<element name="Dhurn Toldur" type="Source" source="Core" id="ID_HOMEBREW_SOURCE_DHURN_TOLDUR">
+		<description>
+			<p>Player items and mounts for the Dhurn Toldur campaign</p>
+		</description>
+		<setters>
+			<set name="abbreviation">DHTD</set>
+			<set name="image">https://yt3.googleusercontent.com/Uv2vfoAVNEjg2t9ZsOMW5bcLEKk3PEdEOFmQSGVPhg_s6lvS4rnut4omrxPcUXbjZCMOrQ4WlQ=s176-c-k-c0x00ffffff-no-rj</set>
+			<set name="url">https://twitter.com/mazetree_</set>
+			<set name="author" abbreviation="MAZE" url="https://twitter.com/mazetree_">Maze Tree</set>
+			<set name="release">20230221</set>
+			<set name="playtest">true</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>
