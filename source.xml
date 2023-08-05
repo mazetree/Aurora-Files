@@ -11,7 +11,7 @@
 		</description>
 		<setters>
 			<set name="abbreviation">DHTD</set>
-			<set name="image">https://yt3.googleusercontent.com/Uv2vfoAVNEjg2t9ZsOMW5bcLEKk3PEdEOFmQSGVPhg_s6lvS4rnut4omrxPcUXbjZCMOrQ4WlQ=s176-c-k-c0x00ffffff-no-rj</set>
+			<set name="image">https://cdn.discordapp.com/attachments/1063111855171711026/1137477354730569898/20230212_064053.jpg</set>
 			<set name="url">https://twitter.com/mazetree_</set>
 			<set name="author" abbreviation="MAZE" url="https://twitter.com/mazetree_">Maze Tree</set>
 			<set name="release">20230221</set>
