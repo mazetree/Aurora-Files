@@ -71,7 +71,7 @@
 			<set name="weapon">Sickle</set>
 		</setters>
 	</element>
-		<element name="Divine Greatsword" type="Magic Item" source="Dhurn Toldur Campaign" id="ID_GABRIEL_SWORD_DIVINEGREATSWORD">
+	<element name="Divine Greatsword" type="Magic Item" source="Dhurn Toldur Campaign" id="ID_GABRIEL_SWORD_DIVINEGREATSWORD">
 		<description>
 			<p><i>+1 greatsword</i></p>
 			<p>Acquired after the Fellowship of the Fey defeated the Knight of the Troupe.</p>
