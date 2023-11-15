@@ -71,4 +71,38 @@
 			<set name="weapon">Sickle</set>
 		</setters>
 	</element>
+		<element name="Divine Greatsword" type="Magic Item" source="Dhurn Toldur Campaign" id="ID_GABRIEL_SWORD_DIVINEGREATSWORD">
+		<description>
+			<p><i>+1 greatsword</i></p>
+			<p>Acquired after the Fellowship of the Fey defeated the Knight of the Troupe.</p>
+			<p class="indent">This sword has a swirling black smoke around that protects the wielder which adds +2 to the wielder's AC against ranged weapon attacks.</p>
+			<p class="indent">As an action, the wielder may cast <em>Cure Wounds</em> as a 3rd level spell targetted on themselves. 3d8 + 4 hit points are restored. Once this property is used, it can't be used again until next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">sword, greatsword, ignites, holy, knight</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">6 lb.</set>
+			<set name="type" addition="greatsword">Weapon</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Greatsword</set>
+		</setters>
+	</element>
+	<element name="Sparkfire Scabbard" type="Magic Item" source="Dhurn Toldur Campaign" id="ID_GABRIEL_SPARKFIRE_SCABBARD">
+		<description>
+			<p>When you stow a greatsword in the sheath you can insert a vial of alchemical oil into the mechanism, causing it to coat the weapon as it exists in an extraplanar pocket dimension. When drawing it, the oil ignites and the burns for a minute of combat, causing your attacks to deal an extra 1d6 of fire damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">scabbard, fire, ignites</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">back</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
 </elements>
