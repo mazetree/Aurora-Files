@@ -2,7 +2,7 @@
 <elements>
     <info>
             <name>Magic Items of Gabriel's Campaign</name>
-            <update version="0.0.8">
+            <update version="0.0.9">
 			<file name="gabriel-magic-items.xml" url="https://raw.githubusercontent.com/mazetree/Aurora-Files/main/gabriel-magic-items.xml" />
 		</update>
     </info>
@@ -229,11 +229,13 @@
 		</rules>
 	</element>
 	<element name="Ability Score Improvement (Brooch of Talent)" type="Class Feature" source="Dhurn Toldur Campaign" id="ID_GABRIEL_CLASS_FEATURE_BROOCH_TALENT_ASI">
+		<supports>Brooch of Talent</supports>
 		<rules>
   			<select type="Ability Score Improvement" name="Ability Score Improvement (Brooch of Talent)" supports="Feat" />
 		</rules>
 	</element>
 	<element name="Expertise(Brooch of Talent)" type="Class Feature" source="Dhurn Toldur Campaign" id="ID_GABRIEL_CLASS_FEATURE_BROOCH_TALENT_EXPERTISE">
+		<supports>Brooch of Talent</supports>
 		<rules>
   			<select type="Class Feature" name="Expertise (Brooch of Talent)" supports="Expertise" />
 		</rules>
