@@ -234,7 +234,7 @@
   			<select type="Ability Score Improvement" name="Ability Score Improvement (Brooch of Talent)" supports="Feat" />
 		</rules>
 	</element>
-	<element name="Expertise(Brooch of Talent)" type="Class Feature" source="Dhurn Toldur Campaign" id="ID_GABRIEL_CLASS_FEATURE_BROOCH_TALENT_EXPERTISE">
+	<element name="Expertise (Brooch of Talent)" type="Class Feature" source="Dhurn Toldur Campaign" id="ID_GABRIEL_CLASS_FEATURE_BROOCH_TALENT_EXPERTISE">
 		<supports>Brooch of Talent</supports>
 		<rules>
   			<select type="Class Feature" name="Expertise (Brooch of Talent)" supports="Expertise" />
