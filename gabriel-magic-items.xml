@@ -2,7 +2,7 @@
 <elements>
     <info>
             <name>Magic Items of Gabriel's Campaign</name>
-            <update version="0.0.2">
+            <update version="0.0.3">
 			<file name="gabriel-magic-items.xml" url="https://raw.githubusercontent.com/mazetree/Aurora-Files/main/gabriel-magic-items.xml" />
 		</update>
     </info>
