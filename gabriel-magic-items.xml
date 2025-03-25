@@ -2,7 +2,7 @@
 <elements>
     <info>
             <name>Magic Items of Gabriel's Campaign</name>
-            <update version="0.0.6">
+            <update version="0.0.7">
 			<file name="gabriel-magic-items.xml" url="https://raw.githubusercontent.com/mazetree/Aurora-Files/main/gabriel-magic-items.xml" />
 		</update>
     </info>
@@ -95,7 +95,7 @@
 			<p>When you stow a greatsword in the sheath you can insert a vial of alchemical oil into the mechanism, causing it to coat the weapon as it exists in an extraplanar pocket dimension. When drawing it, the oil ignites and the burns for a minute of combat, causing your attacks to deal an extra 1d6 of fire damage.</p>
 		</description>
 		<setters>
-			<set name="keywords">scabbard, fire, ignites</set>
+			<set name="keywords">scabbard, fire, ignites, gabriel</set>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
@@ -111,7 +111,7 @@
 			<p class="indent">Once per long rest, you can cast a spell up to and including level 3 without expending a spell slot.</p>
 		</description>
 		<setters>
-			<set name="keywords">veil, forgotten, wizard</set>
+			<set name="keywords">veil, forgotten, wizard, gabriel</set>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
@@ -128,7 +128,7 @@
 			<p class="indent">The souls trapped in the cloak whisper forgotten techniques, granting you a +1 bonus to attack rolls and damage with unarmed strikes.</p>
 		</description>
 		<setters>
-			<set name="keywords">soulbinding, soul, unarmed, monk, shroud</set>
+			<set name="keywords">soulbinding, soul, unarmed, monk, shroud,gabriel</set>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
@@ -145,7 +145,7 @@
 			<p class="indent">Once per long rest, you can call on the souls trapped within to use a bonus action to gain resistance to necrotic damage for 1 minute.</p>
 		</description>
 		<setters>
-			<set name="keywords">gauntlet, grasp, paladin</set>
+			<set name="keywords">gauntlet, grasp, paladin, gabriel</set>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
@@ -165,8 +165,7 @@
 			<p class="indent">You make this choice for each attack. After attacking with the javelin it returns to your hand. When a creature that you can see within 5 feet of your manifestation moves at least 5 feet away from it, you can use your reaction to make an opportunity attack against that creature as if you were in the echo's space. When your manifestation is destroyed, make a constitution save (DC = 15 or half of the damage taken, whichever is higher). If you fail, you are incapacitated until the end of your next turn. Once you have manifested your soul in this way, you cannot do so again until you finish a short rest.</p>
 		</description>
 		<setters>
-			<set name="keywords">javelin, cold, iron, paladin</set>
-			<set name="keywords">javelin</set>
+			<set name="keywords">javelin, cold, iron, paladin, gabriel</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
@@ -174,6 +173,41 @@
 			<set name="attunement" addition="by a paladin">true</set>
 			<set name="rarity">Rare</set>
 			<set name="weapon">Javelin</set>
+		</setters>
+	</element>
+	<element name="Whip of the Midnight Lash" type="Magic Item" source="Dhurn Toldur Campaign" id="ID_GABRIEL_WHIP_MIDNIGHT">
+		<description>
+			<p>This whip is made from dark, shadowy tendrils, and when swung, it creates eerie, whispering noises.</p>
+			<p class="indent"><strong><em>Reach of Shadows.</em></strong>While you are attuned to the whip it has a range of 15 feet. Additionally, as a bonus action, you can teleport up to 10 feet to an unoccupied space within the range of your whip.</p>
+			<p class="indent"><strong><em>Whispers of the Void.</em></strong>Once per day, you can activate the whip to create an aura of unnerving whispers in a 20-foot radius around you for 1 minute. Any creature that starts its turn in the area must make a DC 14 Wisdom saving throw or be frightened until the start of its next turn.</p>
+			<p class="indent"><strong><em>Shadowlash.</em></strong>When you hit a creature with this weapon, the target takes 1d6 necrotic damage. If the creature has fewer than half its hit points, it takes an additional 1d6 necrotic damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">whip, midnight, lash, gabriel</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="whip">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">Whip</set>
+			<set name="range">15</set>
+		</setters>
+	</element>
+		<element name="Handwraps of Flame" type="Magic Item" source="Dhurn Toldur Campaign" id="ID_GABRIEL_HANDWRAPS_FLAME">
+		<description>
+			<p>These seemingly unremarkable bands of plain linen can be wrapped around your wrists - on doing so you see arcane runes blaze with an internal fire as you flex your fists.</p>
+			<p class="indent">When making unarmed strikes with these wraps, you add 1d4 fire damage to each strike.</p>
+		</description>
+		<setters>
+			<set name="keywords">handwraps, monk, flame, gabriel</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">hands</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a monk">true</set>
+			<set name="rarity">Rare</set>
 		</setters>
 	</element>
 </elements>
