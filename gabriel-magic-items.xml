@@ -2,7 +2,7 @@
 <elements>
     <info>
             <name>Magic Items of Gabriel's Campaign</name>
-            <update version="0.0.7">
+            <update version="0.0.8">
 			<file name="gabriel-magic-items.xml" url="https://raw.githubusercontent.com/mazetree/Aurora-Files/main/gabriel-magic-items.xml" />
 		</update>
     </info>
@@ -191,10 +191,9 @@
 			<set name="attunement">true</set>
 			<set name="rarity">Rare</set>
 			<set name="weapon">Whip</set>
-			<set name="range">15</set>
 		</setters>
 	</element>
-		<element name="Handwraps of Flame" type="Magic Item" source="Dhurn Toldur Campaign" id="ID_GABRIEL_HANDWRAPS_FLAME">
+	<element name="Handwraps of Flame" type="Magic Item" source="Dhurn Toldur Campaign" id="ID_GABRIEL_HANDWRAPS_FLAME">
 		<description>
 			<p>These seemingly unremarkable bands of plain linen can be wrapped around your wrists - on doing so you see arcane runes blaze with an internal fire as you flex your fists.</p>
 			<p class="indent">When making unarmed strikes with these wraps, you add 1d4 fire damage to each strike.</p>
@@ -209,5 +208,34 @@
 			<set name="attunement" addition="by a monk">true</set>
 			<set name="rarity">Rare</set>
 		</setters>
+	</element>
+	<element name="Brooch of Talent" type="Magic Item" source="Dhurn Toldur Campaign" id="ID_GABRIEL_BROOCH_TALENT">
+		<description>
+			<p>These brooches are deep blue or russet leaves (dependent on your respective Court) with a simple clasp, suitable for a cloak or shirt. Their core glows faintly when touched and you feel invigorated when wearing it. You are clearly marked as a Champion of your respective Court.</p>
+			<p class="indent">Grants a choice of expertise in a skill in which you are proficient or an ability score increase of 1.</p>
+		</description>
+		<setters>
+			<set name="keywords">brooch, court, summer, winter, talent, gabriel</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">misc</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<select type="Class Feature" name="Brooch of Talent" supports="Brooch of Talent" />
+		</rules>
+	</element>
+	<element name="Ability Score Improvement (Brooch of Talent)" type="Class Feature" source="Dhurn Toldur Campaign" id="ID_GABRIEL_CLASS_FEATURE_BROOCH_TALENT_ASI">
+		<rules>
+  			<select type="Ability Score Improvement" name="Ability Score Improvement (Brooch of Talent)" supports="Feat" />
+		</rules>
+	</element>
+	<element name="Expertise(Brooch of Talent)" type="Class Feature" source="Dhurn Toldur Campaign" id="ID_GABRIEL_CLASS_FEATURE_BROOCH_TALENT_EXPERTISE">
+		<rules>
+  			<select type="Class Feature" name="Expertise (Brooch of Talent)" supports="Expertise" />
+		</rules>
 	</element>
 </elements>
