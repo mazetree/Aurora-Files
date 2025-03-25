@@ -2,7 +2,7 @@
 <elements>
     <info>
             <name>Magic Items of Gabriel's Campaign</name>
-            <update version="0.0.4">
+            <update version="0.0.5">
 			<file name="gabriel-magic-items.xml" url="https://raw.githubusercontent.com/mazetree/Aurora-Files/main/gabriel-magic-items.xml" />
 		</update>
     </info>
@@ -156,7 +156,7 @@
 		</setters>
 	</element>
 	<element name="Cold Iron Javelin" type="Magic Item" source="Dhurn Toldur Campaign" id="ID_GABRIEL_COLD_JAVELIN">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+		<supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
 		<description>
 			<p>This thin, sleek javelin is ice cold to the touch and saps the warmth of your hand as you touch it. It is a single, continuous piece of metal, forged from a single, simple mould. Surprisingly heavy given its slender shaft, it shines with a slightly dullish blue grey light.</p>
 			<p class="indent">This javelin has +1 to attack and damage rolls. </p>
