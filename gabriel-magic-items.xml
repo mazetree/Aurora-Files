@@ -173,6 +173,7 @@
 			<set name="type" addition="javelin">Weapon</set>
 			<set name="attunement" addition="by a paladin">true</set>
 			<set name="rarity">Rare</set>
+			<set name="weapon">Javelin</set>
 		</setters>
 	</element>
 </elements>
